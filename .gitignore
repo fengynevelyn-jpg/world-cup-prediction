@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+.DS_Store
+
+data/
+statsbomb_open_data_master.zip
+statsbomb_competitions.json
+
+World Cup prediction/
+
+baseline_predictions.csv
+baseline_predictions_elo_form.csv
+predicted_first_four_matches_2026.csv
+world_cup_version_b_adaptive_predictions.csv
+world_cup_version_b_walk_forward_predictions.csv
+

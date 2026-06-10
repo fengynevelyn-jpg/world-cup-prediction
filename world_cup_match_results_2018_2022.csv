@@ -1,0 +1,129 @@
+season,match_id,match_date,kick_off,stage,stage_display,is_knockout,team_a,team_b,team_a_group,team_b_group,team_a_manager,team_b_manager,team_a_country,team_b_country,team_a_score,team_b_score,scoreline_90m,target_result_90m,stadium,host_country,referee
+2018,7525,2018-06-14,15:00:00.000,group,Group Stage,0,Russia,Saudi Arabia,,,Stanislav Cherchesov,Pizzi,Russia,Saudi Arabia,5,0,5-0,0,Stadion Luzhniki,Russia,Néstor Fabián Pitana
+2018,7578,2018-06-15,12:00:00.000,group,Group Stage,0,Egypt,Uruguay,,A,Héctor Cúper,Óscar Tabárez,Egypt,Uruguay,0,1,0-1,2,Ekaterinburg Arena,Russia,Björn Kuipers
+2018,7577,2018-06-15,15:00:00.000,group,Group Stage,0,Morocco,Iran,,,Hervé Renard,Carlos Queiroz,Morocco,"Iran, Islamic Republic of",0,1,0-1,2,Saint-Petersburg Stadium ( Gazprom Arena ),Russia,Cüneyt Çakιr
+2018,7576,2018-06-15,18:00:00.000,group,Group Stage,0,Portugal,Spain,,,Fernando Santos,Fernando Hierro,Portugal,Spain,3,3,3-3,1,Olimpiyskiy Stadion Fisht,Russia,Gianluca Rocchi
+2018,7530,2018-06-16,10:00:00.000,group,Group Stage,0,France,Australia,,,Didier Deschamps,Lambertus van Marwijk,France,Australia,2,1,2-1,0,Ak Bars Arena,Russia,Andrés Cunha
+2018,7531,2018-06-16,13:00:00.000,group,Group Stage,0,Argentina,Iceland,,,Jorge Sampaoli,Heimir Hallgrímsson,Argentina,Iceland,1,1,1-1,1,Otkritie Bank Arena,Russia,Szymon Marciniak
+2018,7532,2018-06-16,16:00:00.000,group,Group Stage,0,Peru,Denmark,,,Ricardo Gareca,Åge Hareide,Peru,Denmark,0,1,0-1,2,Mordovia Arena,Russia,Bakary Papa Gassama
+2018,7529,2018-06-16,19:00:00.000,group,Group Stage,0,Croatia,Nigeria,,,Zlatko Dalić,Gernot Rohr,Croatia,Nigeria,2,0,2-0,0,Rostec Arena,Russia,Sandro Ricci
+2018,7535,2018-06-17,12:00:00.000,group,Group Stage,0,Costa Rica,Serbia,,,Óscar Ramírez,Mladen Krstajić,Costa Rica,Serbia,0,1,0-1,2,Solidarnost Arena,Russia,Malang Diedhiou
+2018,7534,2018-06-17,15:00:00.000,group,Group Stage,0,Germany,Mexico,,,Joachim Löw,Juan Carlos Osorio,Germany,Mexico,0,1,0-1,2,Stadion Luzhniki,Russia,Alireza Faghani
+2018,7533,2018-06-17,18:00:00.000,group,Group Stage,0,Brazil,Switzerland,E,,Tite,Vladimir Petković,Brazil,Switzerland,1,1,1-1,1,Rostov Arena,Russia,César Arturo Ramos Palazuelos
+2018,7538,2018-06-18,12:00:00.000,group,Group Stage,0,Sweden,South Korea,,F,Jan Olof Andersson,Shin Tae-Yong,Sweden,Korea (South),1,0,1-0,0,Stadion Nizhny Novgorod (Nizhniy Novgorod),Russia,Joel Antonio Aguilar Chicas
+2018,7536,2018-06-18,15:00:00.000,group,Group Stage,0,Belgium,Panama,,,Roberto Martínez,Hernán Darío Gómez,Belgium,Panama,3,0,3-0,0,Olimpiyskiy Stadion Fisht,Russia,Janny Sikazwe
+2018,7537,2018-06-18,18:00:00.000,group,Group Stage,0,Tunisia,England,,,Nabil Maâloul,Gareth Southgate,Tunisia,England,1,2,1-2,2,Volgograd Arena,Russia,Wilmar Alexander Roldán Pérez
+2018,7541,2018-06-19,12:00:00.000,group,Group Stage,0,Colombia,Japan,,,José Pékerman,Akira Nishino,Colombia,Japan,1,2,1-2,2,Mordovia Arena,Russia,Damir Skomina
+2018,7539,2018-06-19,15:00:00.000,group,Group Stage,0,Poland,Senegal,,,Adam Nawałka,Aliou Cissé,Poland,Senegal,1,2,1-2,2,Otkritie Bank Arena,Russia,Nawaf Abdulla Ghayyath Shukralla
+2018,7540,2018-06-19,18:00:00.000,group,Group Stage,0,Russia,Egypt,,,Stanislav Cherchesov,Héctor Cúper,Russia,Egypt,3,1,3-1,0,Saint-Petersburg Stadium ( Gazprom Arena ),Russia,Enrique Cáceres
+2018,7542,2018-06-20,12:00:00.000,group,Group Stage,0,Portugal,Morocco,,,Fernando Santos,Hervé Renard,Portugal,Morocco,1,0,1-0,0,Stadion Luzhniki,Russia,Mark Geiger
+2018,7544,2018-06-20,15:00:00.000,group,Group Stage,0,Uruguay,Saudi Arabia,A,,Óscar Tabárez,Pizzi,Uruguay,Saudi Arabia,1,0,1-0,0,Rostov Arena,Russia,Clément Turpin
+2018,7543,2018-06-20,18:00:00.000,group,Group Stage,0,Iran,Spain,,,Carlos Queiroz,Fernando Hierro,"Iran, Islamic Republic of",Spain,0,1,0-1,2,Ak Bars Arena,Russia,Andrés Cunha
+2018,7547,2018-06-21,12:00:00.000,group,Group Stage,0,Denmark,Australia,,,Åge Hareide,Lambertus van Marwijk,Denmark,Australia,1,1,1-1,1,Solidarnost Arena,Russia,Antonio Miguel Mateu Lahoz
+2018,7546,2018-06-21,15:00:00.000,group,Group Stage,0,France,Peru,,,Didier Deschamps,Ricardo Gareca,France,Peru,1,0,1-0,0,Ekaterinburg Arena,Russia,Mohamed Abdulla Hassan Mohd
+2018,7545,2018-06-21,18:00:00.000,group,Group Stage,0,Argentina,Croatia,,,Jorge Sampaoli,Zlatko Dalić,Argentina,Croatia,0,3,0-3,2,Stadion Nizhny Novgorod (Nizhniy Novgorod),Russia,Ravshan Irmatov
+2018,7548,2018-06-22,12:00:00.000,group,Group Stage,0,Brazil,Costa Rica,E,,Tite,Óscar Ramírez,Brazil,Costa Rica,2,0,2-0,0,Saint-Petersburg Stadium ( Gazprom Arena ),Russia,Björn Kuipers
+2018,7549,2018-06-22,15:00:00.000,group,Group Stage,0,Nigeria,Iceland,,,Gernot Rohr,Heimir Hallgrímsson,Nigeria,Iceland,2,0,2-0,0,Volgograd Arena,Russia,Matthew Conger
+2018,7550,2018-06-22,18:00:00.000,group,Group Stage,0,Serbia,Switzerland,,,Mladen Krstajić,Vladimir Petković,Serbia,Switzerland,1,2,1-2,2,Rostec Arena,Russia,Felix Brych
+2018,7552,2018-06-23,12:00:00.000,group,Group Stage,0,Belgium,Tunisia,,,Roberto Martínez,Nabil Maâloul,Belgium,Tunisia,5,2,5-2,0,Otkritie Bank Arena,Russia,Jair Marrufo
+2018,7553,2018-06-23,15:00:00.000,group,Group Stage,0,South Korea,Mexico,F,,Shin Tae-Yong,Juan Carlos Osorio,Korea (South),Mexico,1,2,1-2,2,Rostov Arena,Russia,Milorad Mažić
+2018,7551,2018-06-23,18:00:00.000,group,Group Stage,0,Germany,Sweden,,,Joachim Löw,Jan Olof Andersson,Germany,Sweden,2,1,2-1,0,Olimpiyskiy Stadion Fisht,Russia,Szymon Marciniak
+2018,7554,2018-06-24,12:00:00.000,group,Group Stage,0,England,Panama,,,Gareth Southgate,Hernán Darío Gómez,England,Panama,6,1,6-1,0,Stadion Nizhny Novgorod (Nizhniy Novgorod),Russia,Ghead Grisha
+2018,7556,2018-06-24,15:00:00.000,group,Group Stage,0,Japan,Senegal,,,Akira Nishino,Aliou Cissé,Japan,Senegal,2,2,2-2,1,Ekaterinburg Arena,Russia,Gianluca Rocchi
+2018,7555,2018-06-24,18:00:00.000,group,Group Stage,0,Poland,Colombia,,,Adam Nawałka,José Pékerman,Poland,Colombia,0,3,0-3,2,Ak Bars Arena,Russia,César Arturo Ramos Palazuelos
+2018,7558,2018-06-25,14:00:00.000,group,Group Stage,0,Uruguay,Russia,A,,Óscar Tabárez,Stanislav Cherchesov,Uruguay,Russia,3,0,3-0,0,Solidarnost Arena,Russia,Malang Diedhiou
+2018,7559,2018-06-25,14:00:00.000,group,Group Stage,0,Saudi Arabia,Egypt,,,Pizzi,Héctor Cúper,Saudi Arabia,Egypt,2,1,2-1,0,Volgograd Arena,Russia,Wilmar Alexander Roldán Pérez
+2018,7557,2018-06-25,18:00:00.000,group,Group Stage,0,Iran,Portugal,,,Carlos Queiroz,Fernando Santos,"Iran, Islamic Republic of",Portugal,1,1,1-1,1,Mordovia Arena,Russia,Enrique Cáceres
+2018,7560,2018-06-25,18:00:00.000,group,Group Stage,0,Spain,Morocco,,,Fernando Hierro,Hervé Renard,Spain,Morocco,2,2,2-2,1,Rostec Arena,Russia,Ravshan Irmatov
+2018,7562,2018-06-26,14:00:00.000,group,Group Stage,0,Australia,Peru,,,Lambertus van Marwijk,Ricardo Gareca,Australia,Peru,0,2,0-2,2,Olimpiyskiy Stadion Fisht,Russia,Sergey Karasev
+2018,7563,2018-06-26,14:00:00.000,group,Group Stage,0,Denmark,France,,,Åge Hareide,Didier Deschamps,Denmark,France,0,0,0-0,1,Stadion Luzhniki,Russia,Sandro Ricci
+2018,7561,2018-06-26,18:00:00.000,group,Group Stage,0,Iceland,Croatia,,,Heimir Hallgrímsson,Zlatko Dalić,Iceland,Croatia,1,2,1-2,2,Rostov Arena,Russia,Antonio Miguel Mateu Lahoz
+2018,7564,2018-06-26,18:00:00.000,group,Group Stage,0,Nigeria,Argentina,,,Gernot Rohr,Jorge Sampaoli,Nigeria,Argentina,1,2,1-2,2,Saint-Petersburg Stadium ( Gazprom Arena ),Russia,Cüneyt Çakιr
+2018,7566,2018-06-27,14:00:00.000,group,Group Stage,0,Mexico,Sweden,,,Juan Carlos Osorio,Jan Olof Andersson,Mexico,Sweden,0,3,0-3,2,Ekaterinburg Arena,Russia,Néstor Fabián Pitana
+2018,7567,2018-06-27,14:00:00.000,group,Group Stage,0,South Korea,Germany,F,,Shin Tae-Yong,Joachim Löw,Korea (South),Germany,2,0,2-0,0,Ak Bars Arena,Russia,Mark Geiger
+2018,7565,2018-06-27,18:00:00.000,group,Group Stage,0,Serbia,Brazil,,E,Mladen Krstajić,Tite,Serbia,Brazil,0,2,0-2,2,Otkritie Bank Arena,Russia,Alireza Faghani
+2018,7568,2018-06-27,18:00:00.000,group,Group Stage,0,Switzerland,Costa Rica,,,Vladimir Petković,Óscar Ramírez,Switzerland,Costa Rica,2,2,2-2,1,Stadion Nizhny Novgorod (Nizhniy Novgorod),Russia,Clément Turpin
+2018,7571,2018-06-28,14:00:00.000,group,Group Stage,0,Senegal,Colombia,,,Aliou Cissé,José Pékerman,Senegal,Colombia,0,1,0-1,2,Solidarnost Arena,Russia,Milorad Mažić
+2018,7572,2018-06-28,14:00:00.000,group,Group Stage,0,Japan,Poland,,,Akira Nishino,Adam Nawałka,Japan,Poland,0,1,0-1,2,Volgograd Arena,Russia,Janny Sikazwe
+2018,7569,2018-06-28,18:00:00.000,group,Group Stage,0,Panama,Tunisia,,,Hernán Darío Gómez,Nabil Maâloul,Panama,Tunisia,1,2,1-2,2,Mordovia Arena,Russia,Nawaf Abdulla Ghayyath Shukralla
+2018,7570,2018-06-28,18:00:00.000,group,Group Stage,0,England,Belgium,,,Gareth Southgate,Roberto Martínez,England,Belgium,0,1,0-1,2,Rostec Arena,Russia,Damir Skomina
+2018,7580,2018-06-30,14:00:00.000,round_of_16,Round of 16,1,France,Argentina,,,Didier Deschamps,Jorge Sampaoli,France,Argentina,4,3,4-3,0,Ak Bars Arena,Russia,Alireza Faghani
+2018,7579,2018-06-30,18:00:00.000,round_of_16,Round of 16,1,Uruguay,Portugal,,,Óscar Tabárez,Fernando Santos,Uruguay,Portugal,2,1,2-1,0,Olimpiyskiy Stadion Fisht,Russia,César Arturo Ramos Palazuelos
+2018,7582,2018-07-01,14:00:00.000,round_of_16,Round of 16,1,Spain,Russia,,,Fernando Hierro,Stanislav Cherchesov,Spain,Russia,1,1,1-1,1,Stadion Luzhniki,Russia,Björn Kuipers
+2018,7581,2018-07-01,18:00:00.000,round_of_16,Round of 16,1,Croatia,Denmark,,,Zlatko Dalić,Åge Hareide,Croatia,Denmark,1,1,1-1,1,Stadion Nizhny Novgorod (Nizhniy Novgorod),Russia,Néstor Fabián Pitana
+2018,7583,2018-07-02,14:00:00.000,round_of_16,Round of 16,1,Brazil,Mexico,,,Tite,Juan Carlos Osorio,Brazil,Mexico,2,0,2-0,0,Solidarnost Arena,Russia,Gianluca Rocchi
+2018,7584,2018-07-02,18:00:00.000,round_of_16,Round of 16,1,Belgium,Japan,,,Roberto Martínez,Akira Nishino,Belgium,Japan,3,2,3-2,0,Rostov Arena,Russia,Malang Diedhiou
+2018,7586,2018-07-03,14:00:00.000,round_of_16,Round of 16,1,Sweden,Switzerland,,,Jan Olof Andersson,Vladimir Petković,Sweden,Switzerland,1,0,1-0,0,Saint-Petersburg Stadium ( Gazprom Arena ),Russia,Damir Skomina
+2018,7585,2018-07-03,18:00:00.000,round_of_16,Round of 16,1,Colombia,England,,,José Pékerman,Gareth Southgate,Colombia,England,1,1,1-1,1,Otkritie Bank Arena,Russia,Mark Geiger
+2018,8649,2018-07-06,14:00:00.000,quarterfinal,Quarter-finals,1,Uruguay,France,,,Óscar Tabárez,Didier Deschamps,Uruguay,France,0,2,0-2,2,Stadion Nizhny Novgorod (Nizhniy Novgorod),Russia,Néstor Fabián Pitana
+2018,8650,2018-07-06,18:00:00.000,quarterfinal,Quarter-finals,1,Brazil,Belgium,,,Tite,Roberto Martínez,Brazil,Belgium,1,2,1-2,2,Ak Bars Arena,Russia,Milorad Mažić
+2018,8651,2018-07-07,14:00:00.000,quarterfinal,Quarter-finals,1,Sweden,England,,,Jan Olof Andersson,Gareth Southgate,Sweden,England,0,2,0-2,2,Solidarnost Arena,Russia,Björn Kuipers
+2018,8652,2018-07-07,18:00:00.000,quarterfinal,Quarter-finals,1,Russia,Croatia,,,Stanislav Cherchesov,Zlatko Dalić,Russia,Croatia,2,2,2-2,1,Olimpiyskiy Stadion Fisht,Russia,Sandro Ricci
+2018,8655,2018-07-10,18:00:00.000,semifinal,Semi-finals,1,France,Belgium,,,Didier Deschamps,Roberto Martínez,France,Belgium,1,0,1-0,0,Saint-Petersburg Stadium ( Gazprom Arena ),Russia,Andrés Cunha
+2018,8656,2018-07-11,18:00:00.000,semifinal,Semi-finals,1,Croatia,England,,,Zlatko Dalić,Gareth Southgate,Croatia,England,2,1,2-1,0,Stadion Luzhniki,Russia,Cüneyt Çakιr
+2018,8657,2018-07-14,16:00:00.000,third_place,3rd Place Final,1,Belgium,England,,,Roberto Martínez,Gareth Southgate,Belgium,England,2,0,2-0,0,Saint-Petersburg Stadium ( Gazprom Arena ),Russia,Alireza Faghani
+2018,8658,2018-07-15,17:00:00.000,final,Final,1,France,Croatia,,,Didier Deschamps,Zlatko Dalić,France,Croatia,4,2,4-2,0,Stadion Luzhniki,Russia,Néstor Fabián Pitana
+2022,3857286,2022-11-20,16:00:00.000,group,Group Stage,0,Qatar,Ecuador,A,A,Félix Sánchez,Gustavo Alfaro,Qatar,Ecuador,0,2,0-2,2,Al Bayt Stadium,Qatar,Daniele Orsato
+2022,3857271,2022-11-21,13:00:00.000,group,Group Stage,0,England,Iran,B,B,Gareth Southgate,Carlos Queiroz,England,"Iran, Islamic Republic of",6,2,6-2,0,Sheikh Khalifa International Stadium,Qatar,Raphael Claus
+2022,3857285,2022-11-21,16:00:00.000,group,Group Stage,0,Senegal,Netherlands,A,A,Aliou Cissé,Louis van Gaal,Senegal,Netherlands,0,2,0-2,2,Al Thumama Stadium,Qatar,Wilton Pereira Sampaio
+2022,3857282,2022-11-21,19:00:00.000,group,Group Stage,0,United States,Wales,B,B,Gregg Berhalter,Robert Page,United States of America,Wales,1,1,1-1,1,Ahmad bin Ali Stadium,Qatar,Abdulrahman Ibrahim Al Jassim
+2022,3857300,2022-11-22,10:00:00.000,group,Group Stage,0,Argentina,Saudi Arabia,C,C,Lionel Sebastián Scaloni,Hervé Renard,Argentina,Saudi Arabia,1,2,1-2,2,Lusail Stadium,Qatar,Slavko Vinčić
+2022,3857254,2022-11-22,13:00:00.000,group,Group Stage,0,Denmark,Tunisia,D,D,Kasper Hjulmand,Jalel Kadri,Denmark,Tunisia,0,0,0-0,1,Education City Stadium ,Qatar,César Arturo Ramos Palazuelos
+2022,3857265,2022-11-22,16:00:00.000,group,Group Stage,0,Mexico,Poland,C,C,Gerardo Martino,Czesław Michniewicz,Mexico,Poland,0,0,0-0,1,Stadium 974,Qatar,Chris Beath
+2022,3857279,2022-11-22,19:00:00.000,group,Group Stage,0,France,Australia,D,D,Didier Deschamps,Graham James Arnold,France,Australia,4,1,4-1,0,Al Janoub Stadium   ,Qatar,Victor Miguel de Freitas Gomes
+2022,3857277,2022-11-23,10:00:00.000,group,Group Stage,0,Morocco,Croatia,,F,Walid Regragui,Zlatko Dalić,Morocco,Croatia,0,0,0-0,1,Al Bayt Stadium,Qatar,Fernando Andrés Rapallini
+2022,3857284,2022-11-23,13:00:00.000,group,Group Stage,0,Germany,Japan,E,E,Hans-Dieter Flick,Hajime Moriyasu,Germany,Japan,1,2,1-2,2,Sheikh Khalifa International Stadium,Qatar,Ivan Arcides Barton Cisneros
+2022,3857291,2022-11-23,16:00:00.000,group,Group Stage,0,Spain,Costa Rica,E,E,Luis Enrique,Luis Fernando Suárez,Spain,Costa Rica,7,0,7-0,0,Al Thumama Stadium,Qatar,
+2022,3857268,2022-11-23,19:00:00.000,group,Group Stage,0,Belgium,Canada,F,F,Roberto Martínez,John Herdman,Belgium,Canada,1,0,1-0,0,Ahmad bin Ali Stadium,Qatar,Janny Sikazwe
+2022,3857290,2022-11-24,10:00:00.000,group,Group Stage,0,Switzerland,Cameroon,G,G,Murat Yakin,Rigobert Song Bahanag,Switzerland,Cameroon,1,0,1-0,0,Al Janoub Stadium   ,Qatar,Facundo Tello Figueroa
+2022,3857287,2022-11-24,13:00:00.000,group,Group Stage,0,Uruguay,South Korea,H,H,Diego Alonso,Paulo Bento,Uruguay,Korea (South),0,0,0-0,1,Education City Stadium ,Qatar,Clément Turpin
+2022,3857298,2022-11-24,16:00:00.000,group,Group Stage,0,Portugal,Ghana,H,H,Fernando Santos,Otto Addo,Portugal,Ghana,3,2,3-2,0,Stadium 974,Qatar,Ismail Elfath
+2022,3857258,2022-11-24,19:00:00.000,group,Group Stage,0,Brazil,Serbia,G,G,Tite,Dragan Stojković,Brazil,Serbia,2,0,2-0,0,Lusail Stadium,Qatar,Alireza Faghani
+2022,3857273,2022-11-25,10:00:00.000,group,Group Stage,0,Wales,Iran,B,B,Robert Page,Carlos Queiroz,Wales,"Iran, Islamic Republic of",0,2,0-2,2,Ahmad bin Ali Stadium,Qatar,Mario Alberto Escobar Toca
+2022,3857301,2022-11-25,13:00:00.000,group,Group Stage,0,Qatar,Senegal,A,A,Félix Sánchez,Aliou Cissé,Qatar,Senegal,1,3,1-3,2,Al Thumama Stadium,Qatar,Antonio Miguel Mateu Lahoz
+2022,3857274,2022-11-25,16:00:00.000,group,Group Stage,0,Netherlands,Ecuador,A,A,Louis van Gaal,Gustavo Alfaro,Netherlands,Ecuador,1,1,1-1,1,Sheikh Khalifa International Stadium,Qatar,Mustapha Ghorbal
+2022,3857272,2022-11-25,19:00:00.000,group,Group Stage,0,England,United States,B,B,Gareth Southgate,Gregg Berhalter,England,United States of America,0,0,0-0,1,Al Bayt Stadium,Qatar,Jesús Valenzuela Sáez
+2022,3857288,2022-11-26,10:00:00.000,group,Group Stage,0,Tunisia,Australia,D,D,Jalel Kadri,Graham James Arnold,Tunisia,Australia,0,1,0-1,2,Al Janoub Stadium   ,Qatar,Daniel Siebert
+2022,3857297,2022-11-26,13:00:00.000,group,Group Stage,0,Poland,Saudi Arabia,C,C,Czesław Michniewicz,Hervé Renard,Poland,Saudi Arabia,2,0,2-0,0,Education City Stadium ,Qatar,Wilton Pereira Sampaio
+2022,3857266,2022-11-26,16:00:00.000,group,Group Stage,0,France,Denmark,D,D,Didier Deschamps,Kasper Hjulmand,France,Denmark,2,1,2-1,0,Stadium 974,Qatar,Szymon Marciniak
+2022,3857289,2022-11-26,19:00:00.000,group,Group Stage,0,Argentina,Mexico,C,C,Lionel Sebastián Scaloni,Gerardo Martino,Argentina,Mexico,2,0,2-0,0,Lusail Stadium,Qatar,Daniele Orsato
+2022,3857295,2022-11-27,10:00:00.000,group,Group Stage,0,Japan,Costa Rica,E,E,Hajime Moriyasu,Luis Fernando Suárez,Japan,Costa Rica,0,1,0-1,2,Ahmad bin Ali Stadium,Qatar,Michael Oliver
+2022,3857283,2022-11-27,13:00:00.000,group,Group Stage,0,Belgium,Morocco,F,,Roberto Martínez,Walid Regragui,Belgium,Morocco,0,2,0-2,2,Al Thumama Stadium,Qatar,César Arturo Ramos Palazuelos
+2022,3857281,2022-11-27,16:00:00.000,group,Group Stage,0,Croatia,Canada,F,F,Zlatko Dalić,John Herdman,Croatia,Canada,4,1,4-1,0,Sheikh Khalifa International Stadium,Qatar,Andrés Matonte
+2022,3857263,2022-11-27,19:00:00.000,group,Group Stage,0,Spain,Germany,E,E,Luis Enrique,Hans-Dieter Flick,Spain,Germany,1,1,1-1,1,Al Bayt Stadium,Qatar,Danny Desmond Makkelie
+2022,3857259,2022-11-28,10:00:00.000,group,Group Stage,0,Cameroon,Serbia,G,G,Rigobert Song Bahanag,Dragan Stojković,Cameroon,Serbia,3,3,3-3,1,Al Janoub Stadium   ,Qatar,Mohamed Abdulla Hassan Mohd
+2022,3857299,2022-11-28,13:00:00.000,group,Group Stage,0,South Korea,Ghana,H,H,Paulo Bento,Otto Addo,Korea (South),Ghana,2,3,2-3,2,Education City Stadium ,Qatar,Anthony Taylor
+2022,3857269,2022-11-28,16:00:00.000,group,Group Stage,0,Brazil,Switzerland,G,G,Tite,Murat Yakin,Brazil,Switzerland,1,0,1-0,0,Stadium 974,Qatar,Ivan Arcides Barton Cisneros
+2022,3857270,2022-11-28,19:00:00.000,group,Group Stage,0,Portugal,Uruguay,H,H,Fernando Santos,Diego Alonso,Portugal,Uruguay,2,0,2-0,0,Lusail Stadium,Qatar,Alireza Faghani
+2022,3857267,2022-11-29,15:00:00.000,group,Group Stage,0,Ecuador,Senegal,A,A,Gustavo Alfaro,Aliou Cissé,Ecuador,Senegal,1,2,1-2,2,Sheikh Khalifa International Stadium,Qatar,Clément Turpin
+2022,3857294,2022-11-29,15:00:00.000,group,Group Stage,0,Netherlands,Qatar,A,A,Louis van Gaal,Félix Sánchez,Netherlands,Qatar,2,0,2-0,0,Al Bayt Stadium,Qatar,Bakary Papa Gassama
+2022,3857261,2022-11-29,19:00:00.000,group,Group Stage,0,Wales,England,B,B,Robert Page,Gareth Southgate,Wales,England,0,3,0-3,2,Ahmad bin Ali Stadium,Qatar,Slavko Vinčić
+2022,3857278,2022-11-29,19:00:00.000,group,Group Stage,0,Iran,United States,B,B,Carlos Queiroz,Gregg Berhalter,"Iran, Islamic Republic of",United States of America,0,1,0-1,2,Al Thumama Stadium,Qatar,Antonio Miguel Mateu Lahoz
+2022,3857257,2022-11-30,15:00:00.000,group,Group Stage,0,Australia,Denmark,D,D,Graham James Arnold,Kasper Hjulmand,Australia,Denmark,1,0,1-0,0,Al Janoub Stadium   ,Qatar,Mustapha Ghorbal
+2022,3857275,2022-11-30,15:00:00.000,group,Group Stage,0,Tunisia,France,D,D,Jalel Kadri,Didier Deschamps,Tunisia,France,1,0,1-0,0,Education City Stadium ,Qatar,Matthew Conger
+2022,3857260,2022-11-30,19:00:00.000,group,Group Stage,0,Saudi Arabia,Mexico,C,C,Hervé Renard,Gerardo Martino,Saudi Arabia,Mexico,1,2,1-2,2,Lusail Stadium,Qatar,Michael Oliver
+2022,3857264,2022-11-30,19:00:00.000,group,Group Stage,0,Poland,Argentina,C,C,Czesław Michniewicz,Lionel Sebastián Scaloni,Poland,Argentina,0,2,0-2,2,Stadium 974,Qatar,Danny Desmond Makkelie
+2022,3857276,2022-12-01,15:00:00.000,group,Group Stage,0,Canada,Morocco,F,,John Herdman,Walid Regragui,Canada,Morocco,1,2,1-2,2,Al Thumama Stadium,Qatar,Raphael Claus
+2022,3857296,2022-12-01,15:00:00.000,group,Group Stage,0,Croatia,Belgium,F,F,Zlatko Dalić,Roberto Martínez,Croatia,Belgium,0,0,0-0,1,Ahmad bin Ali Stadium,Qatar,Anthony Taylor
+2022,3857255,2022-12-01,19:00:00.000,group,Group Stage,0,Japan,Spain,E,E,Hajime Moriyasu,Luis Enrique,Japan,Spain,2,1,2-1,0,Sheikh Khalifa International Stadium,Qatar,Victor Miguel de Freitas Gomes
+2022,3857292,2022-12-01,19:00:00.000,group,Group Stage,0,Costa Rica,Germany,E,E,Luis Fernando Suárez,Hans-Dieter Flick,Costa Rica,Germany,2,4,2-4,2,Al Bayt Stadium,Qatar,Stéphanie Frappart
+2022,3857262,2022-12-02,15:00:00.000,group,Group Stage,0,South Korea,Portugal,H,H,Paulo Bento,Fernando Santos,Korea (South),Portugal,2,1,2-1,0,Education City Stadium ,Qatar,Facundo Tello Figueroa
+2022,3857293,2022-12-02,15:00:00.000,group,Group Stage,0,Ghana,Uruguay,H,H,Otto Addo,Diego Alonso,Ghana,Uruguay,0,2,0-2,2,Al Janoub Stadium   ,Qatar,Daniel Siebert
+2022,3857256,2022-12-02,19:00:00.000,group,Group Stage,0,Serbia,Switzerland,G,G,Dragan Stojković,Murat Yakin,Serbia,Switzerland,2,3,2-3,2,Stadium 974,Qatar,Fernando Andrés Rapallini
+2022,3857280,2022-12-02,19:00:00.000,group,Group Stage,0,Cameroon,Brazil,G,G,Rigobert Song Bahanag,Tite,Cameroon,Brazil,1,0,1-0,0,Lusail Stadium,Qatar,Ismail Elfath
+2022,3869117,2022-12-03,17:00:00.000,round_of_16,Round of 16,1,Netherlands,United States,,,Louis van Gaal,Gregg Berhalter,Netherlands,United States of America,3,1,3-1,0,Sheikh Khalifa International Stadium,Qatar,Wilton Pereira Sampaio
+2022,3869151,2022-12-03,21:00:00.000,round_of_16,Round of 16,1,Argentina,Australia,,,Lionel Sebastián Scaloni,Graham James Arnold,Argentina,Australia,2,1,2-1,0,Ahmad bin Ali Stadium,Qatar,Szymon Marciniak
+2022,3869152,2022-12-04,17:00:00.000,round_of_16,Round of 16,1,France,Poland,,,Didier Deschamps,Czesław Michniewicz,France,Poland,3,1,3-1,0,Al Thumama Stadium,Qatar,Jesús Valenzuela Sáez
+2022,3869118,2022-12-04,21:00:00.000,round_of_16,Round of 16,1,England,Senegal,,,Gareth Southgate,Aliou Cissé,England,Senegal,3,0,3-0,0,Al Bayt Stadium,Qatar,Ivan Arcides Barton Cisneros
+2022,3869219,2022-12-05,17:00:00.000,round_of_16,Round of 16,1,Japan,Croatia,,,Hajime Moriyasu,Zlatko Dalić,Japan,Croatia,1,1,1-1,1,Al Janoub Stadium   ,Qatar,Ismail Elfath
+2022,3869253,2022-12-05,21:00:00.000,round_of_16,Round of 16,1,Brazil,South Korea,,,Tite,Paulo Bento,Brazil,Korea (South),4,1,4-1,0,Stadium 974,Qatar,Clément Turpin
+2022,3869220,2022-12-06,17:00:00.000,round_of_16,Round of 16,1,Morocco,Spain,,,Hoalid Regragui,Luis Enrique,Morocco,Spain,0,0,0-0,1,Education City Stadium ,Qatar,Fernando Andrés Rapallini
+2022,3869254,2022-12-06,21:00:00.000,round_of_16,Round of 16,1,Portugal,Switzerland,,,Fernando Santos,Murat Yakin,Portugal,Switzerland,6,1,6-1,0,Lusail Stadium,Qatar,César Arturo Ramos Palazuelos
+2022,3869420,2022-12-09,17:00:00.000,quarterfinal,Quarter-finals,1,Croatia,Brazil,,,Zlatko Dalić,Telê Santana,Croatia,Brazil,1,1,1-1,1,Education City Stadium ,Qatar,Michael Oliver
+2022,3869321,2022-12-09,19:00:00.000,quarterfinal,Quarter-finals,1,Netherlands,Argentina,,,Louis van Gaal,Lionel Sebastián Scaloni,Netherlands,Argentina,2,2,2-2,1,Lusail Stadium,Qatar,Antonio Miguel Mateu Lahoz
+2022,3869486,2022-12-10,17:00:00.000,quarterfinal,Quarter-finals,1,Morocco,Portugal,,,Hoalid Regragui,Fernando Santos,Morocco,Portugal,1,0,1-0,0,Al Thumama Stadium,Qatar,Facundo Tello Figueroa
+2022,3869354,2022-12-10,21:00:00.000,quarterfinal,Quarter-finals,1,England,France,,,Gareth Southgate,Didier Deschamps,England,France,1,2,1-2,2,Al Bayt Stadium,Qatar,Wilton Pereira Sampaio
+2022,3869519,2022-12-13,21:00:00.000,semifinal,Semi-finals,1,Argentina,Croatia,,,Lionel Sebastián Scaloni,Zlatko Dalić,Argentina,Croatia,3,0,3-0,0,Lusail Stadium,Qatar,Daniele Orsato
+2022,3869552,2022-12-14,21:00:00.000,semifinal,Semi-finals,1,France,Morocco,,,Didier Deschamps,Hoalid Regragui,France,Morocco,2,0,2-0,0,Al Bayt Stadium,Qatar,César Arturo Ramos Palazuelos
+2022,3869684,2022-12-17,17:00:00.000,third_place,3rd Place Final,1,Croatia,Morocco,,,Zlatko Dalić,Walid Regragui,Croatia,Morocco,2,1,2-1,0,Sheikh Khalifa International Stadium,Qatar,Abdulrahman Ibrahim Al Jassim
+2022,3869685,2022-12-18,17:00:00.000,final,Final,1,Argentina,France,,,Lionel Sebastián Scaloni,Didier Deschamps,Argentina,France,3,3,3-3,1,Lusail Stadium,Qatar,Szymon Marciniak

@@ -1,0 +1,129 @@
+match_id,match_date,tournament,stage,is_knockout,team_a,team_b,team_a_elo,team_b_elo,elo_diff,team_a_fifa_rank,team_b_fifa_rank,fifa_rank_diff,team_a_squad_value,team_b_squad_value,squad_value_diff,team_a_last5_points,team_b_last5_points,last5_points_diff,team_a_last5_goals_for,team_b_last5_goals_for,goals_for_diff,team_a_last5_goals_against,team_b_last5_goals_against,goals_against_diff,team_a_last5_goal_diff,team_b_last5_goal_diff,last5_goal_diff_gap,team_a_top11_avg_rating_last5,team_b_top11_avg_rating_last5,top11_rating_diff,team_a_top11_avg_minutes_last5,team_b_top11_avg_minutes_last5,top11_minutes_diff,team_a_attack_core_form_score,team_b_attack_core_form_score,attack_core_form_diff,team_a_gk_form_score,team_b_gk_form_score,gk_form_diff,team_a_recent_starts_stability,team_b_recent_starts_stability,starts_stability_diff,team_a_key_absence_score,team_b_key_absence_score,key_absence_diff,team_a_rest_days,team_b_rest_days,rest_days_diff,confederation_a,confederation_b,confederation_pair,same_confederation_flag,target_result_90m
+7525,2018-06-14,FIFA World Cup,group,0,Russia,Saudi Arabia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7578,2018-06-15,FIFA World Cup,group,0,Egypt,Uruguay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7577,2018-06-15,FIFA World Cup,group,0,Morocco,Iran,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7576,2018-06-15,FIFA World Cup,group,0,Portugal,Spain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+7530,2018-06-16,FIFA World Cup,group,0,France,Australia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7531,2018-06-16,FIFA World Cup,group,0,Argentina,Iceland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+7532,2018-06-16,FIFA World Cup,group,0,Peru,Denmark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7529,2018-06-16,FIFA World Cup,group,0,Croatia,Nigeria,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7535,2018-06-17,FIFA World Cup,group,0,Costa Rica,Serbia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7534,2018-06-17,FIFA World Cup,group,0,Germany,Mexico,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7533,2018-06-17,FIFA World Cup,group,0,Brazil,Switzerland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+7538,2018-06-18,FIFA World Cup,group,0,Sweden,South Korea,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7536,2018-06-18,FIFA World Cup,group,0,Belgium,Panama,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7537,2018-06-18,FIFA World Cup,group,0,Tunisia,England,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7541,2018-06-19,FIFA World Cup,group,0,Colombia,Japan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7539,2018-06-19,FIFA World Cup,group,0,Poland,Senegal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7540,2018-06-19,FIFA World Cup,group,0,Russia,Egypt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7542,2018-06-20,FIFA World Cup,group,0,Portugal,Morocco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7544,2018-06-20,FIFA World Cup,group,0,Uruguay,Saudi Arabia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7543,2018-06-20,FIFA World Cup,group,0,Iran,Spain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7547,2018-06-21,FIFA World Cup,group,0,Denmark,Australia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+7546,2018-06-21,FIFA World Cup,group,0,France,Peru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7545,2018-06-21,FIFA World Cup,group,0,Argentina,Croatia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7548,2018-06-22,FIFA World Cup,group,0,Brazil,Costa Rica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7549,2018-06-22,FIFA World Cup,group,0,Nigeria,Iceland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7550,2018-06-22,FIFA World Cup,group,0,Serbia,Switzerland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7552,2018-06-23,FIFA World Cup,group,0,Belgium,Tunisia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7553,2018-06-23,FIFA World Cup,group,0,South Korea,Mexico,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7551,2018-06-23,FIFA World Cup,group,0,Germany,Sweden,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7554,2018-06-24,FIFA World Cup,group,0,England,Panama,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7556,2018-06-24,FIFA World Cup,group,0,Japan,Senegal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+7555,2018-06-24,FIFA World Cup,group,0,Poland,Colombia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7558,2018-06-25,FIFA World Cup,group,0,Uruguay,Russia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7559,2018-06-25,FIFA World Cup,group,0,Saudi Arabia,Egypt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7557,2018-06-25,FIFA World Cup,group,0,Iran,Portugal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+7560,2018-06-25,FIFA World Cup,group,0,Spain,Morocco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+7562,2018-06-26,FIFA World Cup,group,0,Australia,Peru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7563,2018-06-26,FIFA World Cup,group,0,Denmark,France,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+7561,2018-06-26,FIFA World Cup,group,0,Iceland,Croatia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7564,2018-06-26,FIFA World Cup,group,0,Nigeria,Argentina,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7566,2018-06-27,FIFA World Cup,group,0,Mexico,Sweden,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7567,2018-06-27,FIFA World Cup,group,0,South Korea,Germany,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7565,2018-06-27,FIFA World Cup,group,0,Serbia,Brazil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7568,2018-06-27,FIFA World Cup,group,0,Switzerland,Costa Rica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+7571,2018-06-28,FIFA World Cup,group,0,Senegal,Colombia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7572,2018-06-28,FIFA World Cup,group,0,Japan,Poland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7569,2018-06-28,FIFA World Cup,group,0,Panama,Tunisia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7570,2018-06-28,FIFA World Cup,group,0,England,Belgium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+7580,2018-06-30,FIFA World Cup,round_of_16,1,France,Argentina,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7579,2018-06-30,FIFA World Cup,round_of_16,1,Uruguay,Portugal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7582,2018-07-01,FIFA World Cup,round_of_16,1,Spain,Russia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+7581,2018-07-01,FIFA World Cup,round_of_16,1,Croatia,Denmark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+7583,2018-07-02,FIFA World Cup,round_of_16,1,Brazil,Mexico,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7584,2018-07-02,FIFA World Cup,round_of_16,1,Belgium,Japan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7586,2018-07-03,FIFA World Cup,round_of_16,1,Sweden,Switzerland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+7585,2018-07-03,FIFA World Cup,round_of_16,1,Colombia,England,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+8649,2018-07-06,FIFA World Cup,quarterfinal,1,Uruguay,France,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+8650,2018-07-06,FIFA World Cup,quarterfinal,1,Brazil,Belgium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+8651,2018-07-07,FIFA World Cup,quarterfinal,1,Sweden,England,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+8652,2018-07-07,FIFA World Cup,quarterfinal,1,Russia,Croatia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+8655,2018-07-10,FIFA World Cup,semifinal,1,France,Belgium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+8656,2018-07-11,FIFA World Cup,semifinal,1,Croatia,England,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+8657,2018-07-14,FIFA World Cup,third_place,1,Belgium,England,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+8658,2018-07-15,FIFA World Cup,final,1,France,Croatia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857286,2022-11-20,FIFA World Cup,group,0,Qatar,Ecuador,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857271,2022-11-21,FIFA World Cup,group,0,England,Iran,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857285,2022-11-21,FIFA World Cup,group,0,Senegal,Netherlands,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857282,2022-11-21,FIFA World Cup,group,0,United States,Wales,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3857300,2022-11-22,FIFA World Cup,group,0,Argentina,Saudi Arabia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857254,2022-11-22,FIFA World Cup,group,0,Denmark,Tunisia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3857265,2022-11-22,FIFA World Cup,group,0,Mexico,Poland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3857279,2022-11-22,FIFA World Cup,group,0,France,Australia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857277,2022-11-23,FIFA World Cup,group,0,Morocco,Croatia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3857284,2022-11-23,FIFA World Cup,group,0,Germany,Japan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857291,2022-11-23,FIFA World Cup,group,0,Spain,Costa Rica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857268,2022-11-23,FIFA World Cup,group,0,Belgium,Canada,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857290,2022-11-24,FIFA World Cup,group,0,Switzerland,Cameroon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857287,2022-11-24,FIFA World Cup,group,0,Uruguay,South Korea,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3857298,2022-11-24,FIFA World Cup,group,0,Portugal,Ghana,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857258,2022-11-24,FIFA World Cup,group,0,Brazil,Serbia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857273,2022-11-25,FIFA World Cup,group,0,Wales,Iran,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857301,2022-11-25,FIFA World Cup,group,0,Qatar,Senegal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857274,2022-11-25,FIFA World Cup,group,0,Netherlands,Ecuador,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3857272,2022-11-25,FIFA World Cup,group,0,England,United States,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3857288,2022-11-26,FIFA World Cup,group,0,Tunisia,Australia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857297,2022-11-26,FIFA World Cup,group,0,Poland,Saudi Arabia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857266,2022-11-26,FIFA World Cup,group,0,France,Denmark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857289,2022-11-26,FIFA World Cup,group,0,Argentina,Mexico,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857295,2022-11-27,FIFA World Cup,group,0,Japan,Costa Rica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857283,2022-11-27,FIFA World Cup,group,0,Belgium,Morocco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857281,2022-11-27,FIFA World Cup,group,0,Croatia,Canada,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857263,2022-11-27,FIFA World Cup,group,0,Spain,Germany,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3857259,2022-11-28,FIFA World Cup,group,0,Cameroon,Serbia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3857299,2022-11-28,FIFA World Cup,group,0,South Korea,Ghana,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857269,2022-11-28,FIFA World Cup,group,0,Brazil,Switzerland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857270,2022-11-28,FIFA World Cup,group,0,Portugal,Uruguay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857267,2022-11-29,FIFA World Cup,group,0,Ecuador,Senegal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857294,2022-11-29,FIFA World Cup,group,0,Netherlands,Qatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857261,2022-11-29,FIFA World Cup,group,0,Wales,England,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857278,2022-11-29,FIFA World Cup,group,0,Iran,United States,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857257,2022-11-30,FIFA World Cup,group,0,Australia,Denmark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857275,2022-11-30,FIFA World Cup,group,0,Tunisia,France,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857260,2022-11-30,FIFA World Cup,group,0,Saudi Arabia,Mexico,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857264,2022-11-30,FIFA World Cup,group,0,Poland,Argentina,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857276,2022-12-01,FIFA World Cup,group,0,Canada,Morocco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857296,2022-12-01,FIFA World Cup,group,0,Croatia,Belgium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3857255,2022-12-01,FIFA World Cup,group,0,Japan,Spain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857292,2022-12-01,FIFA World Cup,group,0,Costa Rica,Germany,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857262,2022-12-02,FIFA World Cup,group,0,South Korea,Portugal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3857293,2022-12-02,FIFA World Cup,group,0,Ghana,Uruguay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857256,2022-12-02,FIFA World Cup,group,0,Serbia,Switzerland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3857280,2022-12-02,FIFA World Cup,group,0,Cameroon,Brazil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3869117,2022-12-03,FIFA World Cup,round_of_16,1,Netherlands,United States,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3869151,2022-12-03,FIFA World Cup,round_of_16,1,Argentina,Australia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3869152,2022-12-04,FIFA World Cup,round_of_16,1,France,Poland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3869118,2022-12-04,FIFA World Cup,round_of_16,1,England,Senegal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3869219,2022-12-05,FIFA World Cup,round_of_16,1,Japan,Croatia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3869253,2022-12-05,FIFA World Cup,round_of_16,1,Brazil,South Korea,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3869220,2022-12-06,FIFA World Cup,round_of_16,1,Morocco,Spain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3869254,2022-12-06,FIFA World Cup,round_of_16,1,Portugal,Switzerland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3869420,2022-12-09,FIFA World Cup,quarterfinal,1,Croatia,Brazil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3869321,2022-12-09,FIFA World Cup,quarterfinal,1,Netherlands,Argentina,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+3869486,2022-12-10,FIFA World Cup,quarterfinal,1,Morocco,Portugal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3869354,2022-12-10,FIFA World Cup,quarterfinal,1,England,France,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+3869519,2022-12-13,FIFA World Cup,semifinal,1,Argentina,Croatia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3869552,2022-12-14,FIFA World Cup,semifinal,1,France,Morocco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3869684,2022-12-17,FIFA World Cup,third_place,1,Croatia,Morocco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+3869685,2022-12-18,FIFA World Cup,final,1,Argentina,France,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1

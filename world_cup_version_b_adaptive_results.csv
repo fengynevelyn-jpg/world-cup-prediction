@@ -1,0 +1,4 @@
+strategy,description,close_preset,medium_preset,lopsided_preset,evaluated_matches,accuracy,log_loss,brier
+adaptive_best_bucket,每个强弱桶单独拿当前 log loss 最优 preset,player_state_squad_value,player_state_squad_value_xg,player_state,64,0.46875,1.6019938512743017,0.7331272091525303
+adaptive_base_svgxg,close/lopsided 用 base_form，medium 用 player_state_squad_value_xg,base_form,player_state_squad_value_xg,base_form,64,0.5,1.6167388110402134,0.7114324961064752
+adaptive_base_svg,close/lopsided 用 base_form，medium 用 player_state_squad_value,base_form,player_state_squad_value,base_form,64,0.5,1.6386699268673306,0.7111843523223915
