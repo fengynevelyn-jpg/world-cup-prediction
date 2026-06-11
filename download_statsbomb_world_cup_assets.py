@@ -11,7 +11,7 @@ import urllib.request
 from pathlib import Path
 
 
-BASE_DIR = Path("/Users/evelynfeng/Documents/gaming")
+BASE_DIR = Path(__file__).resolve().parent
 MATCH_DIR = BASE_DIR / "data" / "statsbomb" / "matches"
 EVENT_DIR = BASE_DIR / "data" / "statsbomb" / "events"
 LINEUP_DIR = BASE_DIR / "data" / "statsbomb" / "lineups"

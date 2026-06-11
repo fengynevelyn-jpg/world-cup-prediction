@@ -1,7 +1,0 @@
-preset,description,start_eval_index,train_rows_before_first_prediction,evaluated_matches,accuracy,log_loss,brier,mean_train_rows,feature_count
-player_state_squad_value,Player-state preset + squad value,64,64,64,0.453125,1.6665315627794501,0.7641885005438791,95.5,37
-player_state_squad_value_xg,Player-state + squad value + rolling xG/xGA,64,64,64,0.453125,1.7219538159562786,0.7782968368995382,95.5,41
-player_state,Base + top11 rating/minutes,64,64,64,0.4375,1.786688579839222,0.7793842437328187,95.5,35
-base_form,Elo + FIFA + recent form + stage/confederation,64,64,64,0.46875,1.7899825258019584,0.7741030412485856,95.5,31
-all_signals,Player-state + squad value + rolling xG/xGA + all current player-state fields,64,64,64,0.484375,1.8007404151076858,0.7651124715502876,95.5,49
-player_state_xg,Base + top11 rating/minutes + rolling xG/xGA,64,64,64,0.421875,1.8568414760066725,0.7898614520870237,95.5,39

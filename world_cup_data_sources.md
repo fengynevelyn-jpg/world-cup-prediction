@@ -1,201 +1,92 @@
-# 世界杯预测实验数据源
+# World Cup Prediction Data Notes
 
-## 已经落地到本地的数据
+This file is intentionally public-facing and conservative.
 
-### 1. StatsBomb 公开世界杯比赛数据
+## Recommended rule for this repo
 
-来源：
+Treat third-party data as **user-supplied local input**, not as repository content.
 
-- https://github.com/statsbomb/open-data
-- https://statsbomb.com/news/statsbomb-release-free-2022-world-cup-data/
+That means this repo should mainly publish:
 
-本地文件：
+- code
+- schema
+- templates
+- tiny examples or synthetic demos
 
-- `/Users/evelynfeng/Documents/gaming/statsbomb_competitions.json`
-- `/Users/evelynfeng/Documents/gaming/data/statsbomb/matches/world_cup_2018_matches.json`
-- `/Users/evelynfeng/Documents/gaming/data/statsbomb/matches/world_cup_2022_matches.json`
+It should generally avoid publishing:
 
-从这些文件已经整理出的表：
+- raw third-party dumps
+- large mirrored snapshots
+- locally generated feature tables based on third-party data
+- redistributed market-value tables unless you have confirmed the right to redistribute them
 
-- `/Users/evelynfeng/Documents/gaming/world_cup_match_results_2018_2022.csv`
-- `/Users/evelynfeng/Documents/gaming/world_cup_matches_seed_2018_2022.csv`
+## Source categories used by the local workflow
 
-这些数据现在已经足够提供：
+### 1. StatsBomb open data
 
-- 2018 世界杯全部 64 场比赛
-- 2022 世界杯全部 64 场比赛
-- 比赛日期
-- 比赛阶段
-- 主客队
-- 90 分钟比分
-- `target_result_90m`
-- 球场
-- 教练名
-- 裁判名
+Primary source:
 
-### 2. 已写好的处理脚本
+- [StatsBomb open-data repo](https://github.com/statsbomb/open-data)
 
-- `/Users/evelynfeng/Documents/gaming/build_statsbomb_world_cup_matches.py`
-- `/Users/evelynfeng/Documents/gaming/build_world_cup_model_seed.py`
-- `/Users/evelynfeng/Documents/gaming/download_statsbomb_world_cup_assets.py`
+Notes:
 
-## 还缺但值得补的数据
+- StatsBomb explicitly says the data is made available for public use in research and football analytics.
+- Their README also asks that published work attribute StatsBomb and use their logo when sharing research or analysis based on the data.
+- Before redistributing derived tables, check the latest upstream terms and decide whether attribution-only is enough for your use case.
 
-### 1. FIFA 官方排名日期锚点
+## 2. FIFA ranking inputs
 
-来源：
+Primary source:
 
-- https://inside.fifa.com/en/fifa-world-ranking/men
+- [FIFA men's ranking page](https://inside.fifa.com/en/fifa-world-ranking/men)
 
-用途：
+Notes:
 
-- `team_a_fifa_rank`
-- `team_b_fifa_rank`
-- `fifa_rank_diff`
+- Rankings themselves are factual inputs, but the exact historical retrieval path matters.
+- If you rely on archived or mirrored ranking pages, document that clearly.
 
-说明：
+### 3. Historical international results
 
-- 这是官方来源
-- 我们已经从 FIFA 页面的历史日期元数据确认了两届世界杯赛前最近一次男足排名发布日期：
-  - `2018-06-07`
-  - `2022-10-06`
-- 官方页面对历史表格的自动化提取并不友好，所以实际落表时用了下方的历史快照页做归档抓取
+Local workflow has used a public historical match-results dataset to compute Elo and recent-form features.
 
-### 2. 历史 FIFA 排名快照页（实际已用于建模）
+Notes:
 
-来源：
+- Keep the acquisition step separate from this repo when possible.
+- Document the exact upstream source and terms before redistributing any processed extracts.
 
-- https://en.fifaranking.net/ranking/?d=2018-06-07
-- https://en.fifaranking.net/ranking/?d=2022-10-06
+### 4. Squad-value inputs
 
-本地文件：
+Local workflow has used:
 
-- `/Users/evelynfeng/Documents/gaming/data/fifa/fifaranking_2018_06_07.html`
-- `/Users/evelynfeng/Documents/gaming/data/fifa/fifaranking_2022_10_06.html`
+- World Cup squad pages
+- a public Transfermarkt-derived player-value dataset
 
-用途：
+Conservative publishing guidance:
 
-- `team_a_fifa_rank`
-- `team_b_fifa_rank`
-- `fifa_rank_diff`
+- treat squad-value features as optional
+- do not assume redistribution of player-value tables is safe just because a public GitHub repo exists
+- prefer shipping only the code path, and let users supply the local data themselves after reviewing upstream terms
 
-说明：
+## Practical publishing policy
 
-- 这是第三方历史快照站点，不是 FIFA 官方主站
-- 但它保留了我们需要的两个赛前发布时间点的完整排名表
-- 对这次实验来说，它足够适合作为 `2018` 与 `2022` 世界杯赛前排名输入
+For a low-risk public release, keep:
 
-### 3. Elo
+- `world_cup_prediction_schema.md`
+- `world_cup_matches_template.csv`
+- `world_cup_matches_example.csv`
+- `world_cup_matches_demo.csv`
+- feature-building and training scripts
 
-推荐做法：
+Exclude from version control:
 
-- 不依赖第三方网页抄数
-- 直接基于历史国家队比赛结果自己计算 Elo
+- raw data under `data/`
+- downloaded HTML/ZIP assets
+- locally generated feature tables
+- experiment result tables
+- internal working notes
 
-这样更稳，因为：
+## Attribution reminder
 
-- 口径可控
-- 可以保证只用赛前信息
-- 后续还能调参数，比如主场优势、平局修正、比赛重要性权重
+If you publish analysis or predictions generated from StatsBomb data, include source attribution as requested by StatsBomb:
 
-如果只想先做 baseline，也可以先用第三方 Elo 表，但那会引入额外来源管理问题。
-
-### 4. 球员与阵容层数据
-
-优先来源：
-
-- StatsBomb 事件数据和阵容数据
-
-用途：
-
-- 首发阵容
-- 门将信息
-- 射门和 `xG`
-- 核心球员出场情况
-- 近期比赛表现聚合
-
-说明：
-
-- 这部分已经有下载脚本
-- 已经从 `events` 里做出了：
-  - `top11_rating_diff`
-  - `top11_minutes_diff`
-  - `attack_core_form_diff`
-  - `gk_form_diff`
-  - `starts_stability_diff`
-  - `key_absence_diff`
-  - `team_a_avg_xg_last5`
-  - `team_b_avg_xg_last5`
-  - `xg_diff`
-  - `team_a_avg_xga_last5`
-  - `team_b_avg_xga_last5`
-  - `xga_diff`
-- 但当前 `events` 覆盖还不完整，所以 `xG/xGA` 和球员状态都属于稀疏特征
-
-### 5. 阵容总身价（现已接入）
-
-来源：
-
-- 世界杯最终名单页：
-  - https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_squads
-  - https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads
-- Transfermarkt 系球员市场价值数据集：
-  - https://github.com/salimt/football-datasets
-
-本地文件：
-
-- `/Users/evelynfeng/Documents/gaming/data/world_cup_squads_2018.html`
-- `/Users/evelynfeng/Documents/gaming/data/world_cup_squads_2022.html`
-- `/Users/evelynfeng/Documents/gaming/data/player_profiles.csv`
-- `/Users/evelynfeng/Documents/gaming/data/player_market_value.csv`
-- `/Users/evelynfeng/Documents/gaming/world_cup_squad_player_values.csv`
-- `/Users/evelynfeng/Documents/gaming/world_cup_team_squad_values.csv`
-
-用途：
-
-- `team_a_squad_value`
-- `team_b_squad_value`
-- `squad_value_diff`
-
-说明：
-
-- 这不是官方估值，而是第三方市场价值数据
-- 当前做法不是直接抄“球队总身价榜”，而是：
-  1. 先从世界杯最终名单页解析每队球员名单
-  2. 再用球员姓名 + 出生日期去匹配市场价值数据集
-  3. 对每名球员取世界杯开赛前最近一次市场价值
-  4. 最后按队汇总成 `squad_value`
-- 当前已经覆盖：
-  - `127 / 128` 场比赛
-  - 仍缺 `3` 场，全部与 `Saudi Arabia` 球员转写匹配不足有关
-
-## 当前建议的最小数据路径
-
-第一阶段先用已经拿到的比赛数据，再补两类信息：
-
-1. 自己计算的 Elo
-2. FIFA 排名快照
-
-这样你就能先跑一个比较扎实的 baseline：
-
-- `elo_diff`
-- `fifa_rank_diff`
-- `stage`
-- `is_knockout`
-- `target_result_90m`
-
-第二阶段再加：
-
-- 球员状态
-- 门将状态
-- 核心球员缺阵
-- `xG`
-- 继续补齐 `Saudi Arabia` 等低覆盖队伍的 squad value 匹配
-
-## 现在你已经可以直接用的文件
-
-- 比赛结果总表：`/Users/evelynfeng/Documents/gaming/world_cup_match_results_2018_2022.csv`
-- 建模种子表：`/Users/evelynfeng/Documents/gaming/world_cup_matches_seed_2018_2022.csv`
-- 当前特征总表：`/Users/evelynfeng/Documents/gaming/world_cup_matches_features_elo_form.csv`
-- squad value 处理脚本：`/Users/evelynfeng/Documents/gaming/build_world_cup_squad_values.py`
-- 训练脚本：`/Users/evelynfeng/Documents/gaming/train_world_cup_baseline.py`
+- [StatsBomb open-data README](https://github.com/statsbomb/open-data)

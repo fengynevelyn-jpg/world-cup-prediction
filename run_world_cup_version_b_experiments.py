@@ -29,7 +29,7 @@ from train_world_cup_baseline import (
 )
 
 
-BASE_DIR = Path("/Users/evelynfeng/Documents/gaming")
+BASE_DIR = Path(__file__).resolve().parent
 INPUT_PATH = BASE_DIR / "world_cup_matches_features_elo_form.csv"
 SUMMARY_CSV_PATH = BASE_DIR / "world_cup_version_b_experiment_results.csv"
 SUMMARY_MD_PATH = BASE_DIR / "world_cup_version_b_experiment_results.md"

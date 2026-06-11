@@ -12,7 +12,7 @@ import pandas as pd
 from train_world_cup_baseline import multiclass_brier, multiclass_log_loss
 
 
-BASE_DIR = Path("/Users/evelynfeng/Documents/gaming")
+BASE_DIR = Path(__file__).resolve().parent
 INPUT_PATH = BASE_DIR / "world_cup_version_b_walk_forward_predictions.csv"
 SUMMARY_CSV_PATH = BASE_DIR / "world_cup_version_b_adaptive_results.csv"
 SUMMARY_MD_PATH = BASE_DIR / "world_cup_version_b_adaptive_results.md"

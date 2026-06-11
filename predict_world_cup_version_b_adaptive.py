@@ -22,8 +22,9 @@ from run_world_cup_version_b_experiments import (
 from train_world_cup_baseline import OUTCOME_LABELS, SoftmaxRegression, TARGET_COLUMN, expand_probabilities
 
 
-DEFAULT_INPUT = Path("/Users/evelynfeng/Documents/gaming/world_cup_matches_features_elo_form.csv")
-DEFAULT_OUTPUT = Path("/Users/evelynfeng/Documents/gaming/world_cup_version_b_adaptive_predictions.csv")
+BASE_DIR = Path(__file__).resolve().parent
+DEFAULT_INPUT = BASE_DIR / "world_cup_matches_features_elo_form.csv"
+DEFAULT_OUTPUT = BASE_DIR / "world_cup_version_b_adaptive_predictions.csv"
 
 # Fixed thresholds from the current 2022 version-B calibration run.
 CLOSE_THRESHOLD = 75.735

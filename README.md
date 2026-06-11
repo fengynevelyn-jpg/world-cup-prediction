@@ -2,43 +2,42 @@
 
 An experimental football match prediction project built around the **2018** and **2022** men's FIFA World Cups.
 
-The current project focus is a **Version B** setup:
+The current modeling focus is a **Version B** setup:
 
 - use historical World Cup matches as the training base
 - allow in-tournament rolling state features when they exist
 - compare simple priors against richer state-driven models
-- evaluate with probability-quality metrics, not just accuracy
+- prioritize probability quality over raw accuracy
 
 ## What is in this repo
 
-- feature-building scripts for Elo, form, player status, squad value, and sparse xG/xGA
+- feature-building scripts for Elo, recent form, player-state proxies, optional squad value, and sparse xG/xGA
 - baseline and adaptive prediction scripts
-- experiment summaries and handoff notes
-- lightweight example CSVs and derived experiment outputs
+- a schema document and lightweight example/template CSVs
 
-## What is intentionally not in this repo
+## What is intentionally excluded
 
-Large raw data files are excluded from version control:
+This public repo does **not** bundle:
 
-- StatsBomb event/match raw dumps
-- historical international results raw archive
-- large downloaded HTML/ZIP assets
+- raw third-party datasets
+- locally generated feature tables
+- experiment output tables
+- internal handoff notes
 
-Those files live locally under `data/` and can be regenerated or redownloaded.
+That is intentional for both privacy and data-rights reasons.
 
-## Current project state
+## Data and compliance
 
-The most important project summary is here:
+Please read [world_cup_data_sources.md](world_cup_data_sources.md) before using the pipeline.
 
-- [world_cup_project_handoff.md](world_cup_project_handoff.md)
+Short version:
 
-Supporting experiment summaries:
+- obtain third-party data yourself
+- check and follow each source's license or terms
+- attribute sources where required
+- do not assume that a locally generated CSV is automatically safe to redistribute
 
-- [world_cup_experiment_comparison.md](world_cup_experiment_comparison.md)
-- [world_cup_version_b_experiment_results.md](world_cup_version_b_experiment_results.md)
-- [world_cup_version_b_adaptive_results.md](world_cup_version_b_adaptive_results.md)
-
-## Main scripts
+## Main files
 
 - `build_world_cup_pre_match_features.py`
 - `build_world_cup_player_status_features.py`
@@ -47,27 +46,29 @@ Supporting experiment summaries:
 - `run_world_cup_version_b_experiments.py`
 - `run_world_cup_version_b_adaptive_experiments.py`
 - `predict_world_cup_version_b_adaptive.py`
+- `world_cup_prediction_schema.md`
+- `world_cup_matches_template.csv`
+- `world_cup_matches_example.csv`
+- `world_cup_matches_demo.csv`
 
 ## Current modeling takeaway
 
-The strongest current default is not a single static model.
-
-The most practical setup so far is an **adaptive Version B** strategy:
+The most practical setup so far is an adaptive Version B strategy:
 
 - `close` matches: use `base_form`
 - `medium` matches: use `player_state_squad_value_xg`
 - `lopsided` matches: use `base_form`
 
-This came from walk-forward evaluation on the **2022 World Cup**, using **2018** as the historical training base.
+This repo treats that as an experiment workflow, not a production forecasting system.
 
-## Metrics we care about
+## Metrics
 
-This project prioritizes:
+The project mainly tracks:
 
 - `log loss`
 - `Brier score`
 
-Accuracy is still reported, but it is not the main decision criterion.
+Accuracy is reported, but it is not the primary decision criterion.
 
 ## Dependencies
 
@@ -77,28 +78,8 @@ Python 3 with:
 - `numpy`
 - `beautifulsoup4`
 
-You can install them with:
+Install with:
 
 ```bash
 pip install -r requirements.txt
 ```
-
-## Data sources
-
-See:
-
-- [world_cup_data_sources.md](world_cup_data_sources.md)
-
-Main sources used in the local workflow include:
-
-- StatsBomb open data
-- historical international match results
-- FIFA ranking snapshots
-- a Transfermarkt-derived public player market value dataset
-
-## Notes
-
-- This is an experiment repo, not a production forecasting system.
-- Some features are still sparse, especially event-derived player state and xG.
-- Opening-match predictions should fall back to a pre-tournament branch when no current-tournament state exists yet.
-

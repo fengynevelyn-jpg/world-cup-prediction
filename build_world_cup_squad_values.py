@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 
-BASE_DIR = Path("/Users/evelynfeng/Documents/gaming")
+BASE_DIR = Path(__file__).resolve().parent
 SQUAD_HTML_PATHS = {
     2018: BASE_DIR / "data" / "world_cup_squads_2018.html",
     2022: BASE_DIR / "data" / "world_cup_squads_2022.html",

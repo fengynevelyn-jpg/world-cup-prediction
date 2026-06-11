@@ -9,7 +9,7 @@ from pathlib import Path
 import pandas as pd
 
 
-BASE_DIR = Path("/Users/evelynfeng/Documents/gaming")
+BASE_DIR = Path(__file__).resolve().parent
 MATCH_DIR = BASE_DIR / "data" / "statsbomb" / "matches"
 OUTPUT_PATH = BASE_DIR / "world_cup_match_results_2018_2022.csv"
 
