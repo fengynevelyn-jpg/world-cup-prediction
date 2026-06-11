@@ -26,6 +26,32 @@ This public repo does **not** bundle:
 
 That is intentional for both privacy and data-rights reasons.
 
+## Quick start
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Read the schema:
+
+- `world_cup_prediction_schema.md`
+
+3. Start with the template or demo file:
+
+- `world_cup_matches_template.csv`
+- `world_cup_matches_example.csv`
+- `world_cup_matches_demo.csv`
+
+4. Run the lightweight baseline:
+
+```bash
+python3 train_world_cup_baseline.py \
+  --input world_cup_matches_demo.csv \
+  --output baseline_predictions.csv
+```
+
 ## Data and compliance
 
 Please read [world_cup_data_sources.md](world_cup_data_sources.md) before using the pipeline.
@@ -36,6 +62,17 @@ Short version:
 - check and follow each source's license or terms
 - attribute sources where required
 - do not assume that a locally generated CSV is automatically safe to redistribute
+
+## Repository layout
+
+- `build_world_cup_pre_match_features.py`: builds Elo, recent form, FIFA rank, rest-day, and match-context features
+- `build_world_cup_player_status_features.py`: builds rolling player-state and sparse xG/xGA features from event data
+- `build_world_cup_squad_values.py`: derives squad-value features from local squad/value sources
+- `train_world_cup_baseline.py`: trains a minimal multiclass baseline from a CSV
+- `run_world_cup_version_b_experiments.py`: runs Version B walk-forward experiments
+- `run_world_cup_version_b_adaptive_experiments.py`: evaluates adaptive model-selection strategies
+- `predict_world_cup_version_b_adaptive.py`: predicts future matches with the current adaptive strategy
+- `world_cup_prediction_schema.md`: field definitions and modeling notes
 
 ## Main files
 
@@ -70,20 +107,6 @@ The project mainly tracks:
 
 Accuracy is reported, but it is not the primary decision criterion.
 
-## Dependencies
-
-Python 3 with:
-
-- `pandas`
-- `numpy`
-- `beautifulsoup4`
-
-Install with:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## License
 
 - Open-source license: `MIT`
@@ -101,11 +124,48 @@ pip install -r requirements.txt
 - 对比简单先验和更丰富的状态特征
 - 更重视概率质量，而不是只看准确率
 
+### 快速开始
+
+1. 安装依赖：
+
+```bash
+pip install -r requirements.txt
+```
+
+2. 先看字段说明：
+
+- `world_cup_prediction_schema.md`
+
+3. 再从模板或示例数据开始：
+
+- `world_cup_matches_template.csv`
+- `world_cup_matches_example.csv`
+- `world_cup_matches_demo.csv`
+
+4. 运行最小 baseline：
+
+```bash
+python3 train_world_cup_baseline.py \
+  --input world_cup_matches_demo.csv \
+  --output baseline_predictions.csv
+```
+
 ### 仓库包含什么
 
 - Elo、近期状态、球员状态代理特征、可选身价特征、稀疏 `xG/xGA` 的特征构建脚本
 - baseline 和 adaptive 预测脚本
 - 字段 schema、模板 CSV、示例 CSV
+
+### 目录说明
+
+- `build_world_cup_pre_match_features.py`：构建 Elo、近期状态、FIFA 排名、休息天数和比赛上下文特征
+- `build_world_cup_player_status_features.py`：从事件数据构建滚动球员状态和稀疏 `xG/xGA`
+- `build_world_cup_squad_values.py`：从本地名单与球员价值数据生成阵容价值特征
+- `train_world_cup_baseline.py`：训练最小三分类 baseline
+- `run_world_cup_version_b_experiments.py`：运行 Version B 滚动实验
+- `run_world_cup_version_b_adaptive_experiments.py`：评估自适应策略
+- `predict_world_cup_version_b_adaptive.py`：用当前自适应策略预测未来比赛
+- `world_cup_prediction_schema.md`：字段定义和建模说明
 
 ### 仓库不包含什么
 
