@@ -18,7 +18,7 @@ The current modeling focus is a **Version B** setup:
 - compare simple priors against richer state-driven models
 - prioritize probability quality over raw accuracy
 
-## At a glance
+## Who this is for
 
 Use this repo if you want to:
 
@@ -226,7 +226,7 @@ Accuracy is reported, but it is not the primary decision criterion.
 - 对比简单先验和更丰富的状态特征
 - 更重视概率质量，而不是只看准确率
 
-### 一眼看懂
+### 适合谁来用
 
 如果你想做下面这些事，这个仓库就是为你准备的：
 
